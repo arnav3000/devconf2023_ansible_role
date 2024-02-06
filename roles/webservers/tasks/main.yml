@@ -1,5 +1,5 @@
 ---
 # tasks file for webservers
 - name: Install the correct web server for RHEL
-  debug: 
-    msg: "Webserver Installation demo is completed"
+  ansible.builtin.debug:
+    msg: Webserver Installation demo is completed
