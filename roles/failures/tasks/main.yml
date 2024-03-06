@@ -1,5 +1,5 @@
 ---
 # tasks file for services
 - name: Failure encountered while hardening rhel-8
-  debug: 
-    msg: "Failure encountered while hardening rhel-8"
+  ansible.builtin.debug:
+    msg: Failure encountered while hardening rhel-8

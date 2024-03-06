@@ -1,5 +1,5 @@
 ---
 # tasks file for services
 - name: Install all services for RHEL 8
-  debug: 
-    msg: "Required services Installation demo is completed"
+  ansible.builtin.debug:
+    msg: Required services Installation demo is completed
